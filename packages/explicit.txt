@@ -26,6 +26,7 @@ hyprlock
 hyprpaper
 inotify-tools
 kitty
+lavat-git
 libpulse
 linux
 linux-firmware
@@ -34,6 +35,7 @@ mkinitcpio
 nano
 networkmanager
 network-manager-applet
+nmgui-bin
 noto-fonts
 noto-fonts-emoji
 pipewire
@@ -66,4 +68,6 @@ xdg-desktop-portal-hyprland
 xdg-utils
 xf86-video-amdgpu
 xf86-video-ati
+yay
+yay-debug
 zram-generator

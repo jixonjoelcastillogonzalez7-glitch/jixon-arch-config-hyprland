@@ -1,0 +1,13 @@
+at-spi-dbus-bus.service
+dbus-:1.10-org.a11y.atspi.Registry@0.service
+dbus-broker.service
+dconf.service
+dunst.service
+pipewire-pulse.service
+pipewire.service
+wireplumber.service
+xdg-desktop-portal-gtk.service
+xdg-desktop-portal-hyprland.service
+xdg-desktop-portal.service
+xdg-document-portal.service
+xdg-permission-store.service

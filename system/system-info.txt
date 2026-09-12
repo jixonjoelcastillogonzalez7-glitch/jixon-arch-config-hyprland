@@ -1,0 +1,105 @@
+=== KERNEL ===
+Linux arch 7.2.4-arch1-2 #1 SMP PREEMPT_DYNAMIC Tue, 08 Sep 2026 10:22:31 +0000 x86_64 GNU/Linux
+
+=== CPU ===
+Arquitectura:                             x86_64
+modo(s) de operación de las CPUs:         32-bit, 64-bit
+Tamaños de las direcciones:               44 bits physical, 48 bits virtual
+Orden de los bytes:                       Little Endian
+CPU(s):                                   8
+Lista de la(s) CPU(s) en línea:           0-7
+ID de fabricante:                         AuthenticAMD
+Nombre del modelo:                        AMD Ryzen 3 7320U with Radeon Graphics
+Familia de CPU:                           23
+Modelo:                                   160
+Hilo(s) de procesamiento por núcleo:      2
+Núcleo(s) por «socket»:                   4
+«Socket(s)»:                              1
+Revisión:                                 0
+Microcode version:                        0x8a0000a
+Aumento de frecuencia:                    activada
+CPU(s) factor de escala MHz:              37%
+CPU MHz máx.:                             4151.7300
+CPU MHz mín.:                             425.1780
+BogoMIPS:                                 4791.11
+Indicadores:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca sev sev_es
+Virtualización:                           AMD-V
+Caché L1d:                                128 KiB (4 instancias)
+Caché L1i:                                128 KiB (4 instancias)
+Caché L2:                                 2 MiB (4 instancias)
+Caché L3:                                 4 MiB (1 instancia)
+Modo(s) NUMA:                             1
+CPU(s) del nodo NUMA 0:                   0-7
+Vulnerabilidad Gather data sampling:      Not affected
+Vulnerabilidad Ghostwrite:                Not affected
+Vulnerabilidad Indirect target selection: Not affected
+Vulnerabilidad Itlb multihit:             Not affected
+Vulnerabilidad L1tf:                      Not affected
+Vulnerabilidad Mds:                       Not affected
+Vulnerabilidad Meltdown:                  Not affected
+Vulnerabilidad Mmio stale data:           Not affected
+Vulnerabilidad Old microcode:             Not affected
+Vulnerabilidad Reg file data sampling:    Not affected
+Vulnerabilidad Retbleed:                  Mitigation; untrained return thunk; SMT enabled with STIBP protection
+Vulnerabilidad Spec rstack overflow:      Mitigation; Safe RET
+Vulnerabilidad Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerabilidad Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerabilidad Spectre v2:                Mitigation; Retpolines; IBPB conditional; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerabilidad Srbds:                     Not affected
+Vulnerabilidad Tsa:                       Not affected
+Vulnerabilidad Tsx async abort:           Not affected
+Vulnerabilidad Vmscape:                   Mitigation; IBPB before exit to userspace
+
+=== GPU ===
+03:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Mendocino [Radeon 610M] (rev c2)
+
+=== MONITORES HYPRLAND ===
+Monitor eDP-1 (ID 0):
+	1920x1080@60.00000 at 0x0
+	description: Chimei Innolux Corporation 0x153B
+	make: Chimei Innolux Corporation
+	model: 0x153B
+	physical size (mm): 340x190
+	serial: 
+	active workspace: 1 (1)
+	special workspace: 0 ()
+	reserved: 0 34 0 0
+	scale: 1
+	transform: 0
+	focused: yes
+	dpmsStatus: 1
+	vrr: false
+	solitary: 0
+	solitaryBlockedBy: windowed mode,missing candidate
+	activelyTearing: false
+	tearingBlockedBy: next frame is not torn,user settings,missing candidate
+	directScanoutTo: 0
+	directScanoutBlockedBy: user settings,missing candidate
+	disabled: false
+	currentFormat: XRGB8888
+	mirrorOf: none
+	availableModes: 1920x1080@60.00Hz 1920x1080@40.00Hz 1680x1050@60.00Hz 1280x1024@60.00Hz 1440x900@60.00Hz 1280x800@60.00Hz 1280x720@60.00Hz 1024x768@60.00Hz 800x600@60.00Hz 640x480@60.00Hz 
+	colorManagementPreset: srgb
+	sdrBrightness: 1
+	sdrSaturation: 1
+	sdrMinLuminance: 0.2
+	sdrMaxLuminance: 80
+	hardwareCursorsInUse: true
+
+
+
+=== HYPRLAND ===
+Hyprland 0.56.2 built from branch v0.56.2 at commit efb50993780079460b0cbed1363e2166a2de1d9f clean ([gha] Nix: update inputs).
+Date: Wed Aug 5 14:13:21 2026
+Tag: v0.56.2, commits: 7661
+
+Libraries:
+Hyprgraphics: built against 0.5.1, system has 0.5.1
+Hyprutils: built against 0.14.1, system has 0.14.2
+Hyprcursor: built against 0.1.13, system has 0.1.13
+Hyprlang: built against 0.6.8, system has 0.6.8
+Aquamarine: built against 0.15.0, system has 0.15.0
+
+Version ABI string: efb50993780079460b0cbed1363e2166a2de1d9f_aq_0.15_hu_0.14_hg_0.5_hc_0.1_hlg_0.6
+no flags were set
+

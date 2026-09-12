@@ -1,0 +1,12 @@
+waybar:              /usr/sbin/waybar
+hyprpaper:            /usr/sbin/hyprpaper
+hyprlock:             /usr/sbin/hyprlock
+fuzzel:               /usr/sbin/fuzzel
+kitty:                /usr/sbin/kitty
+dolphin:              /usr/sbin/dolphin
+brightnessctl:        /usr/sbin/brightnessctl
+playerctl:            /usr/sbin/playerctl
+wpctl:                /usr/sbin/wpctl
+nmgui:                /usr/sbin/nmgui
+blueman-manager:      /usr/sbin/blueman-manager
+gsettings:            /usr/sbin/gsettings

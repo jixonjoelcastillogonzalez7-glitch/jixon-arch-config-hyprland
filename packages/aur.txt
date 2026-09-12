@@ -1,4 +1,5 @@
 lavat-git
+lavat-git-debug
 nmgui-bin
 yay
 yay-debug

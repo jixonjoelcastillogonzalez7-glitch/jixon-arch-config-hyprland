@@ -1,0 +1,16 @@
+bluetooth.service
+dbus-broker.service
+grub-btrfsd.service
+ly@tty1.service
+NetworkManager.service
+polkit.service
+power-profiles-daemon.service
+systemd-journald.service
+systemd-logind.service
+systemd-timesyncd.service
+systemd-udevd.service
+systemd-userdbd.service
+udisks2.service
+upower.service
+user@1000.service
+wpa_supplicant.service
