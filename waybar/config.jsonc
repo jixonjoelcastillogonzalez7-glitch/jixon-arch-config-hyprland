@@ -1,0 +1,81 @@
+{
+    "position": "top",
+    "layer": "top",
+    "height": 32,
+
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+
+    "modules-center": [
+        "clock"
+    ],
+
+    "modules-right": [
+        "network",
+        "bluetooth",
+        "backlight",
+        "pulseaudio",
+        "battery"
+    ],
+
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "on-click": "activate"
+    },
+
+    "network": {
+        "format-wifi": "󰤨",
+        "format-ethernet": "󰈀",
+        "format-disconnected": "󰤭",
+        "tooltip-format": "{essid} | Señal: {signalStrength}%",
+        "on-click": "GTK_THEME=Adwaita:dark nmgui",
+        "interval": 5
+    },
+
+    "bluetooth": {
+        "format": "󰂯",
+        "format-connected": "󰂯",
+        "format-disabled": "󰂲",
+        "tooltip-format": "{status}",
+        "tooltip-format-connected": "{device_enumerate}",
+        "on-click": "GTK_THEME=Adwaita:dark blueman-manager",
+        "interval": 5
+    },
+
+    "backlight": {
+        "format": "󰃟 {percent}%"
+    },
+
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "󰝟",
+        "format-icons": {
+            "default": [
+                "󰕿",
+                "󰖀",
+                "󰕾"
+            ]
+        },
+        "scroll-step": 5,
+        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+    },
+
+    "battery": {
+        "format": "{icon} {capacity}%",
+        "format-charging": "󰂄 {capacity}%",
+        "format-icons": [
+            "󰁺",
+            "󰁼",
+            "󰁾",
+            "󰂀",
+            "󰂂"
+        ],
+        "tooltip-format": "{capacity}%"
+    },
+
+    "clock": {
+        "format": "{:%H:%M}",
+        "tooltip-format": "{:%A, %d de %B de %Y}"
+    }
+}

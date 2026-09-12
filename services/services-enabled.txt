@@ -1,0 +1,16 @@
+UNIT FILE                          STATE   PRESET
+bluetooth.service                  enabled disabled
+getty@.service                     enabled enabled
+grub-btrfsd.service                enabled disabled
+NetworkManager-dispatcher.service  enabled disabled
+NetworkManager-wait-online.service enabled disabled
+NetworkManager.service             enabled disabled
+power-profiles-daemon.service      enabled disabled
+systemd-timesyncd.service          enabled enabled
+ufw.service                        enabled disabled
+systemd-userdbd.socket             enabled enabled
+remote-fs.target                   enabled enabled
+snapper-cleanup.timer              enabled disabled
+snapper-timeline.timer             enabled disabled
+
+13 unit files listed.

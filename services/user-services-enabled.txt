@@ -1,0 +1,7 @@
+UNIT FILE             STATE   PRESET
+wireplumber.service   enabled enabled
+p11-kit-server.socket enabled enabled
+pipewire-pulse.socket enabled enabled
+pipewire.socket       enabled enabled
+
+4 unit files listed.
